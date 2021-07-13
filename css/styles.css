@@ -4,3 +4,8 @@
     font-weight: bold;
     color: blue;
 }
+
+li {
+    display: inline-block;
+    width: 5%;
+}
