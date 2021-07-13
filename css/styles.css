@@ -18,15 +18,26 @@ header {
     background: blue;
     color: white;
     padding: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 header a {
-  color: white;
+  color: orange;
   text-decoration: none;
 }
 
 h1,
 nav {
   display: inline-block;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+section {
+  margin: 40px 0;
 }
