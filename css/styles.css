@@ -44,6 +44,19 @@ h2 {
   margin: 0 auto;
 }
 
+.text-image-container {
+  position: relative;
+  max-width: 600px;
+  padding-bottom: 10px;
+}
+
+.text-container {
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 10px 15px;
+}
+
 section {
   margin: 40px 0;
 }
