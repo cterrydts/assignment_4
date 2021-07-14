@@ -37,12 +37,13 @@ nav {
 
 h2 {
   margin-bottom: 10px;
-  padding-top: 70px;
+  padding-top: 10px;
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
+  padding-top: 80px;
 }
 
 .text-image-container {
@@ -59,5 +60,29 @@ h2 {
 }
 
 section {
-  margin: 40px 0;
+  margin: 10px 0;
+}
+
+nav a:hover {
+  color: white
+}
+
+.football {
+  position: absolute;
+}
+
+.football {
+  width:200px
+  animation: throw 3s; linear infinite;
+}
+
+}
+
+@keyframes throw {
+  from {
+    left: -300px;
+ }
+ to{
+   left: 1000px
+ }
 }
