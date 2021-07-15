@@ -59,30 +59,15 @@ h2 {
   padding: 10px 15px;
 }
 
+.emory {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
 section {
   margin: 10px 0;
 }
 
 nav a:hover {
   color: white
-}
-
-.football {
-  position: absolute;
-}
-
-.football {
-  width:200px
-  animation: throw 3s; linear infinite;
-}
-
-}
-
-@keyframes throw {
-  from {
-    left: -300px;
- }
- to{
-   left: 1000px
- }
 }
