@@ -68,6 +68,19 @@ section {
   margin: 10px 0;
 }
 
-nav a:hover {
-  color: white
+.football {
+  position: absolute;
+  animation: throw 2s forwards infinite linear;
+}
+
+@keyframes throw {
+  from {
+    transform: translateX(-200px);
+  to {
+    transform: translateX(1800px);
+    }
+
+}
+.nav a:hover {
+ color: white
 }
